@@ -1,0 +1,30 @@
+.footContainer {
+  height: 756px;
+  width: 15%;
+  justify-content: space-between;
+}
+.footContainer .copyright {
+  text-align: left;
+  font: Italic 15px/18px Lato;
+  letter-spacing: 1.5px;
+  color: #393939;
+  opacity: 1;
+}
+.footContainer .options {
+  text-align: left;
+  font: Italic 15px/18px Lato;
+  letter-spacing: 1.5px;
+  color: #393939;
+  opacity: 1;
+}
+.footContainer .socialLinks .FBLogo {
+  background-image: url("../img/facebook.svg");
+}
+.footContainer .socialLinks .InstaLogo {
+  background-image: url("img/instagram.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 19px;
+}

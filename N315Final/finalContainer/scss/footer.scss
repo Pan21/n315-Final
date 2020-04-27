@@ -1,0 +1,60 @@
+.footContainer{
+    justify-content: space-between;
+    display: flex;
+    margin: 30px 20px 20px 20px;
+
+    .copyright{
+        text-align: left;
+        font: Italic 15px/18px Lato;
+        letter-spacing: 1.5px;
+        color: #393939;
+        opacity: 1;
+
+    }
+    .options{
+        text-align: left;
+        font: Italic 15px/18px Lato;
+        letter-spacing: 1.5px;
+        color: #393939;
+        opacity: 1;
+    }
+
+    .socialLinks{
+        justify-content: space-between;
+        
+        width: 60px;
+        margin: 0px 20px 5px 0px;
+
+        .FBLogo{
+
+            background-image: url("../img/facebook.svg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 19px;
+            height: 19px;
+            float: left;
+
+        }
+        .InstaLogo{
+            background-image: url("../img/instagram.svg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 19px;
+            height: 19px;
+            float: right;
+        }
+
+    }
+
+
+}
+
+@media (max-width: 1024px){
+    .footContainer{
+        .options{
+            display: none;
+        }
+    }
+}
